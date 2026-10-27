@@ -11,15 +11,42 @@ publicados de graça no seu canal são livres. Veja a [licença](LICENSE).
 
 ## Veja o que ele faz
 
-[`demonstracao/EP05-tipos-de-tempestade-final-v2.mp4`](demonstracao/EP05-tipos-de-tempestade-final-v2.mp4)
-é um vídeo de 58 segundos sobre os tipos de tempestade. Foi feito de ponta a ponta
-com este repositório: roteiro, voz, cenas, painéis de dados com unidade e render
-final. A [página da demonstração](demonstracao/README.md) mostra como ele foi feito.
+<p align="center">
+  <a href="demonstracao/EP05-tipos-de-tempestade-final-v2.mp4">
+    <img src="demonstracao/EP05-preview.gif" alt="Prévia animada do vídeo de exemplo sobre os tipos de tempestade" width="640">
+  </a>
+</p>
+
+Esta é a prévia, sem som. **[Clique para ver o vídeo completo](demonstracao/EP05-tipos-de-tempestade-final-v2.mp4)**
+(58 segundos, com narração). Ele foi feito de ponta a ponta com este repositório: roteiro,
+voz, cenas, painéis de dados com unidade e render final. A
+[página da demonstração](demonstracao/README.md) mostra como.
 
 ## Comece em 10 minutos
 
+### Opção 1 (recomendada): peça para uma IA instalar
+
+Você precisa de uma ferramenta de IA que lê a pasta e roda comandos no seu computador
+(Claude Code, Codex, OpenCode, Cursor, Continue...), com um modelo da nuvem ou local.
+
+1. Baixe o projeto: **Code → Download ZIP** nesta página, ou
+   `git clone https://github.com/darksemfiltro/automacao-catalogo.git`.
+2. Abra a pasta do projeto na ferramenta de IA.
+3. Cole o prompt do seu perfil e responda ao que a IA perguntar:
+
+| Seu perfil | Prompt |
+| --- | --- |
+| **Criador de conteúdo**, não programa: a IA explica em linguagem simples, faz o trabalho técnico e pede o seu OK antes de instalar algo | [Prompt para quem cria conteúdo](prompts/00-instalacao.md#prompt-para-quem-cria-conteúdo-não-programa) |
+| **Desenvolvedor**: a IA fala direto, mostra comandos e decisões e deixa o ambiente reproduzível | [Prompt para quem desenvolve](prompts/00-instalacao.md#prompt-para-quem-desenvolve) |
+
+A IA confere o que falta, instala só dentro da pasta do projeto, roda os testes e abre o
+episódio de exemplo. Todos os prompts do projeto, da voz às automações, estão em
+[`prompts/`](prompts/README.md), e qualquer um aceita o seu perfil no começo.
+
+### Opção 2: instalar sozinho
+
 1. Instale [Python 3.10+](https://www.python.org/downloads/), [Node.js 22+](https://nodejs.org/) e o [FFmpeg](https://ffmpeg.org/download.html).
-2. Baixe o projeto e rode o instalador na pasta dele.
+2. Rode o instalador na pasta do projeto.
 
 Windows:
 
@@ -35,7 +62,7 @@ bash instalar.sh
 
 O instalador cria o ambiente `.venv`, instala o HyperFrames, confere as
 dependências fixadas e gera uma composição de teste. Não pede administrador e não
-instala pacotes no sistema (os caches do pip, do npm e o Chromium do HyperFrames ficam nas pastas de cache do seu usuário). Deu erro? Use o [prompt de instalação](prompts/00-instalacao.md).
+instala pacotes no sistema (os caches do pip, do npm e o Chromium do HyperFrames ficam nas pastas de cache do seu usuário). Deu erro? Use o [prompt 10](prompts/10-resolver-erros.md).
 
 3. Abra a composição do episódio de exemplo, sem narração, no Studio do HyperFrames:
 

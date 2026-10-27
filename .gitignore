@@ -85,3 +85,6 @@ sistema/voz.local.json
 
 # Mídia de terceiros baixada por automações (Pexels, Pixabay)
 **/assets/midia/
+
+# Notas de sessão geradas por ferramentas de IA (podem ter caminhos e conversas)
+handoff-*.md

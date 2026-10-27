@@ -1,5 +1,9 @@
 # Demonstração: tipos de tempestade
 
+<p align="center">
+  <img src="EP05-preview.gif" alt="Prévia animada do vídeo de exemplo" width="640">
+</p>
+
 [`EP05-tipos-de-tempestade-final-v2.mp4`](EP05-tipos-de-tempestade-final-v2.mp4)
 é o vídeo de exemplo do projeto. Ele foi produzido de ponta a ponta com este
 repositório e renderizado por `pipeline/render_final.py`.

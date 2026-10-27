@@ -16,6 +16,31 @@ pesado: instalar, configurar a voz, criar episódios e adaptar o sistema.
 A IA pode ser um modelo na nuvem ou um modelo local, como os que rodam no Ollama
 ou no LM Studio. Modelos pequenos erram mais: peça um passo de cada vez.
 
+## Dois jeitos de falar com a IA
+
+Todo prompt desta pasta funciona para qualquer pessoa. Para a IA falar do jeito que você
+entende, cole um destes perfis **antes** do prompt.
+
+**Perfil criador (não programa):**
+
+```text
+Sou criador de conteúdo e não programo. Fale em frases curtas e sem jargão, explique em uma
+linha qualquer termo técnico e diga em que passo estamos. Faça você o trabalho técnico e
+rode os comandos por mim. Não me mostre código nem logs longos: resuma. Peça o meu OK antes
+de instalar, apagar ou gastar dinheiro, e me avise quando eu precisar decidir algo.
+```
+
+**Perfil desenvolvedor:**
+
+```text
+Sou desenvolvedor. Seja direto: comandos, diffs e decisões técnicas com a justificativa, sem
+tutorial. Cite arquivo e linha. Rode os testes depois de cada mudança e mostre as contagens.
+Aponte riscos e alternativas, mas implemente a opção mais simples que atenda.
+```
+
+A instalação já vem com um prompt completo para cada perfil em
+[00-instalacao.md](00-instalacao.md).
+
 ## Índice
 
 | Prompt | Para quê |
