@@ -24,24 +24,33 @@ voz, cenas, painéis de dados com unidade e render final. A
 
 ## Comece em 10 minutos
 
-### Opção 1 (recomendada): peça para uma IA instalar
+### Opção 1 (recomendada): mande o link para uma IA e peça "instala pra mim"
 
-Você precisa de uma ferramenta de IA que lê a pasta e roda comandos no seu computador
-(Claude Code, Codex, OpenCode, Cursor, Continue...), com um modelo da nuvem ou local.
+Você não baixa nada. Use uma ferramenta de IA que roda comandos no seu computador
+(Claude Code, Codex, OpenCode, Cursor...), com um modelo da nuvem ou local, e cole:
 
-1. Baixe o projeto: **Code → Download ZIP** nesta página, ou
-   `git clone https://github.com/darksemfiltro/automacao-catalogo.git`.
-2. Abra a pasta do projeto na ferramenta de IA.
-3. Cole o prompt do seu perfil e responda ao que a IA perguntar:
+```text
+Instala pra mim o projeto https://github.com/darksemfiltro/automacao-catalogo
+Baixe numa pasta que eu escolher (pergunte qual), leia o README.md e o
+prompts/00-instalacao.md do projeto e instale tudo. Eu não programo: fale simples e
+peça o meu OK antes de instalar qualquer programa.
+```
+
+A IA baixa o projeto, confere o que falta, instala só dentro da pasta dele, roda os testes e
+abre o episódio de exemplo. Quer uma conversa mais guiada? Escolha o prompt do seu perfil:
 
 | Seu perfil | Prompt |
 | --- | --- |
 | **Criador de conteúdo**, não programa: a IA explica em linguagem simples, faz o trabalho técnico e pede o seu OK antes de instalar algo | [Prompt para quem cria conteúdo](prompts/00-instalacao.md#prompt-para-quem-cria-conteúdo-não-programa) |
 | **Desenvolvedor**: a IA fala direto, mostra comandos e decisões e deixa o ambiente reproduzível | [Prompt para quem desenvolve](prompts/00-instalacao.md#prompt-para-quem-desenvolve) |
 
-A IA confere o que falta, instala só dentro da pasta do projeto, roda os testes e abre o
-episódio de exemplo. Todos os prompts do projeto, da voz às automações, estão em
-[`prompts/`](prompts/README.md), e qualquer um aceita o seu perfil no começo.
+Todos os prompts do projeto, da voz às automações, estão em [`prompts/`](prompts/README.md),
+e qualquer um aceita o seu perfil no começo.
+
+**Se a IA não conseguir acessar o repositório** (alguns chats não abrem links nem rodam
+comandos): baixe você mesmo em **Code → Download ZIP** nesta página (ou com
+`git clone https://github.com/darksemfiltro/automacao-catalogo.git`), abra a pasta na
+ferramenta de IA e cole o prompt do seu perfil.
 
 ### Opção 2: instalar sozinho
 

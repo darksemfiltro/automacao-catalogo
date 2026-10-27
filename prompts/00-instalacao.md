@@ -3,20 +3,37 @@
 Você tem dois caminhos. O principal é pedir para uma IA instalar tudo. O manual,
 com script, fica mais abaixo para quem prefere fazer sozinho.
 
-## Caminho principal: peça para a IA instalar
+## Caminho principal: mande o link para a IA e peça para instalar
 
-Você precisa de três coisas:
+O jeito mais simples: você não baixa nada. Dê o link do projeto para uma IA e peça
+"instala pra mim". Ela baixa, instala e confere sozinha.
 
-1. **Uma ferramenta de IA que lê a pasta e roda comandos no seu computador.**
-   Exemplos: Claude Code, Codex, OpenCode, Cursor, Continue. O modelo pode ser da
-   nuvem ou local (Ollama, LM Studio). Modelos pequenos erram mais: se travar, peça um
-   passo de cada vez.
-2. **O projeto baixado.** Na página do repositório, clique em **Code → Download ZIP** e
-   extraia, ou use `git clone https://github.com/darksemfiltro/automacao-catalogo.git`.
-3. **A pasta do projeto aberta na ferramenta de IA.**
+Você precisa de **uma ferramenta de IA que roda comandos no seu computador**, como
+Claude Code, Codex, OpenCode ou Cursor. O modelo pode ser da nuvem ou local (Ollama,
+LM Studio). Modelos pequenos erram mais: se travar, peça um passo de cada vez.
 
-Depois, cole o prompt do seu perfil. Os dois fazem a mesma instalação, mas conversam de
-jeito diferente.
+**O pedido mais curto**, para colar na IA:
+
+```text
+Instala pra mim o projeto https://github.com/darksemfiltro/automacao-catalogo
+Baixe numa pasta que eu escolher (pergunte qual), leia o README.md e o
+prompts/00-instalacao.md do projeto e instale tudo. Eu não programo: fale simples e
+peça o meu OK antes de instalar qualquer programa.
+```
+
+Para uma instalação mais guiada, escolha o prompt do seu perfil abaixo. Os dois já trazem
+o link e fazem a mesma instalação, mas conversam de jeito diferente.
+
+### Se a IA não conseguir acessar o repositório
+
+Alguns chats não abrem links nem rodam comandos. Nesse caso, baixe você mesmo e deixe a
+IA trabalhar na pasta:
+
+1. Na página do projeto, clique em **Code → Download ZIP** e extraia, ou use
+   `git clone https://github.com/darksemfiltro/automacao-catalogo.git`.
+2. Abra a pasta do projeto na ferramenta de IA.
+3. Cole o prompt do seu perfil. A linha que manda baixar o projeto vai ser ignorada,
+   porque a pasta já existe.
 
 ### Prompt para quem cria conteúdo (não programa)
 
@@ -25,16 +42,19 @@ linguagem simples, faz o trabalho técnico e pede o seu OK antes de instalar alg
 
 ```text
 Oi! Sou criador de conteúdo e NÃO programo. Quero instalar neste computador o projeto
-Catálogo (vídeos explicativos em português). Você faz o trabalho técnico e eu só decido
-e confirmo.
+Catálogo (vídeos explicativos em português), que está em
+https://github.com/darksemfiltro/automacao-catalogo
+Você faz o trabalho técnico e eu só decido e confirmo.
 
 Como falar comigo: frases curtas e sem jargão. Quando usar um termo técnico, explique em
 uma linha. Não me mostre código nem listas enormes de mensagens: resuma o que aconteceu.
 Diga em que passo estamos ("passo 2 de 6").
 
 O que fazer:
-1. Leia README.md, instalar.ps1, instalar.sh e prompts/00-instalacao.md. Descubra o meu
-   sistema (Windows, macOS ou Linux).
+1. Se o projeto ainda não estiver numa pasta aqui, baixe-o: pergunte em que pasta eu quero
+   e use git clone. Se eu não tiver o git, baixe o ZIP do projeto e extraia. Leia
+   README.md, instalar.ps1, instalar.sh e prompts/00-instalacao.md. Descubra o meu sistema
+   (Windows, macOS ou Linux).
 2. Veja o que eu já tenho instalado: Python 3.10 ou superior, Node.js 22 ou superior e
    FFmpeg. Liste o que falta e explique, em uma linha cada, para que serve e como instalar.
    Peça o meu OK antes de instalar qualquer programa.
@@ -59,8 +79,9 @@ deixa o ambiente reproduzível.
 
 ```text
 Instale o projeto Catálogo (pipeline Python + HyperFrames/Node para vídeos explicativos
-em português) neste checkout. Seja direto: comandos, saídas relevantes e decisões, sem
-tutorial.
+em português), em https://github.com/darksemfiltro/automacao-catalogo. Se ainda não houver
+um checkout, pergunte onde clonar e faça git clone. Seja direto: comandos, saídas
+relevantes e decisões, sem tutorial.
 
 1. Leia README.md, AGENTS.md, sistema/CONSTRAINTS.md, instalar.ps1, instalar.sh,
    requirements*.txt e package.json. Detecte SO, Python (>=3.10), Node (>=22), ffmpeg e
