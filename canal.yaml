@@ -1,0 +1,94 @@
+versao: 1
+id: catalogo-github
+nome: "Catalogo-GitHub"
+idioma: pt-BR
+categoria: documentario
+estado: ativo
+
+voz:
+  id: masculina
+  interruptor: "sistema/voz.json → provedor (omnivoice | openai | comando) e modo (central | direto)"
+
+render:
+  motor: hyperframes
+  versao: "0.8.144"
+  pacotes: npm
+  projeto_node: .
+  preset: final
+  # Só o que o código do canal aplica de fato fica aqui.
+  # A etapa 'render' passa pelo gate pipeline/render_final.py, que chama a CLI do
+  # HyperFrames com --quality high --fps 30 e não passa --crf nem --image-format.
+  # Esses dois ficam null: quem define é o padrão do HyperFrames.
+  sobrepor:
+    crf: null                    # não configurado pelo canal (o render usa o padrão do HyperFrames)
+    concorrencia: 2
+    frames: null                 # não configurado pelo canal (o render usa o padrão do HyperFrames)
+    audio:
+      codec: aac
+      kbps: 192
+      sr: 48000
+
+producao:
+  python: null
+  comandos:
+    roteiro: "python pipeline/parse_roteiro.py episodios/{ep}/roteiro.md episodios/{ep}/producao/segments_v1.json"
+    fonetica: "python pipeline/fonetica.py --in episodios/{ep}/producao/segments_v1.json --out episodios/{ep}/producao/roteiro_fonetico_v1.json"
+    manifest: "python pipeline/build_tts_manifest.py episodios/{ep}/producao roteiro_fonetico_v1.json v1"
+    tts: "python pipeline/omnivoice_tts.py episodios/{ep}/producao/tts_manifest_v1.json"
+    medir: "python pipeline/measure_durations.py episodios/{ep}/producao v1"
+    assemble: "python pipeline/assemble.py --project episodios/{ep}/producao --version v1"
+    alinhamento: "python pipeline/align_mms.py --project episodios/{ep}/producao --timing episodios/{ep}/producao/timing_v1.json --phonetic episodios/{ep}/producao/roteiro_fonetico_v1.json --audio-dir episodios/{ep}/producao/assets/audio/norm_v1 --out episodios/{ep}/producao/alignment_v1.json"
+    cenas: "python pipeline/build_cenas.py episodios/{ep}/producao --timing timing_v1.json --align alignment_v1.json --segments segments_v1.json --out episode.json"
+    gauntlet: "python pipeline/gauntlet.py episodios/{ep}/producao/episode.json --strict"
+    storyboard: "python pipeline/storyboard.py create episodios/{ep}/producao"
+    compor: "python pipeline/gen_comp.py episodios/{ep}/producao --spec episode.json --theme cartoon"
+    densidade: "python pipeline/checa_densidade.py episodios/{ep}/producao/hyperframes/index.html"
+    check: "npx --no-install hyperframes@0.8.144 check episodios/{ep}/producao/hyperframes"
+    preview: "python pipeline/prepare_preview.py --project episodios/{ep}/producao --seconds 60"
+    render: "python pipeline/render_final.py episodios/{ep}/producao --output final-v1.mp4"
+    testes: "python -m unittest discover -s pipeline -p \"test_*.py\" -v"
+    ci: "python pipeline/verifica.py"
+    guard: "python pipeline/floor_guard.py"
+    constraints: "python pipeline/constraints.py --list"
+
+limpeza:
+  proteger:
+    - "demonstracao/**"
+    - "referencia/**"
+    - "referencias/**"
+    - "sistema/**"
+    - "vendor/**"
+    - "registro/**"
+    - "pipeline/**"
+    - "node_modules/**"
+    - ".opencode/**"
+    - "episodios/*/roteiro.md"
+    - "episodios/*/producao/assets/**"
+    - "episodios/*/producao/referencias/**"
+    - "episodios/*/producao/entrada/**"
+    - "episodios/*/producao/analise/**"
+    - "episodios/*/producao/cenas.json"
+    - "episodios/*/producao/plano_cenas.json"
+    - "episodios/*/producao/storyboard.*"
+    - "episodios/*/producao/review.json"
+    - "episodios/*/producao/critica.json"
+    - "episodios/*/producao/episode.json"
+    - "episodios/*/producao/renders/*_FINAL.mp4"
+    - "episodios/*/producao/renders/*FINAL*.mp4"
+    - "episodios/*/producao/renders/final*.mp4"
+    - "episodios/*/producao/renders/demo_30s.mp4"
+  regras:
+    - nome: previews curtos de auditoria
+      padrao: "episodios/*/producao/_preview*/**"
+      tipo: temporario
+    - nome: temporários transitórios de HyperFrames
+      padrao: "episodios/*/producao/_tmp_hf/**"
+      tipo: temporario
+    - nome: logs transitórios de TTS e execução
+      padrao: "episodios/*/producao/*.log"
+      tipo: temporario
+      apos_dias: 14
+    - nome: revisões antigas de renderização
+      padrao: "episodios/*/producao/renders/*.mp4"
+      tipo: versoes
+      manter_mais_recentes: 2

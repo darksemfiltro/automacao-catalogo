@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "revisado_em": "2026-10-04",
+  "nota": "Dependencias externas fixadas por versao e hash. O arquivo e copiado sem alteracao para dentro da composicao, entao passa a ser coberto pelo hash de build.json e o render deixa de depender de CDN. Divergencia de sha256 e erro, nao aviso. O sha256 e a garantia de imutabilidade; a versao do pacote fica registrada ao lado da origem.",
+  "arquivos": {
+    "gsap.min.js": {
+      "versao": "3.14.2",
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "origem": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js",
+      "licenca": "GSAP Standard License (nao e MIT); ver THIRD_PARTY.md",
+      "modificado": false
+    }
+  },
+  "fontes": {
+    "baloo-2-latin-600.woff2": {
+      "familia": "Baloo 2",
+      "peso": 600,
+      "pacote": "baloo-2",
+      "versao": "5.3.0",
+      "origem": "https://cdn.jsdelivr.net/npm/@fontsource/baloo-2@5.3.0/files/baloo-2-latin-600-normal.woff2",
+      "sha256": "ffc22b431dcb01372be1986bc472bd400bbcb56b712a863c3abec7f8302e1bdd",
+      "licenca": "SIL Open Font License 1.1",
+      "modificado": false,
+      "pasta": "fonts"
+    },
+    "baloo-2-latin-700.woff2": {
+      "familia": "Baloo 2",
+      "peso": 700,
+      "pacote": "baloo-2",
+      "versao": "5.3.0",
+      "origem": "https://cdn.jsdelivr.net/npm/@fontsource/baloo-2@5.3.0/files/baloo-2-latin-700-normal.woff2",
+      "sha256": "8e7ffc9b993aa8caa89bcab81e103c9eb2da4e3e042f37b7a5115d0ddbff12c0",
+      "licenca": "SIL Open Font License 1.1",
+      "modificado": false,
+      "pasta": "fonts"
+    },
+    "baloo-2-latin-800.woff2": {
+      "familia": "Baloo 2",
+      "peso": 800,
+      "pacote": "baloo-2",
+      "versao": "5.3.0",
+      "origem": "https://cdn.jsdelivr.net/npm/@fontsource/baloo-2@5.3.0/files/baloo-2-latin-800-normal.woff2",
+      "sha256": "3e36c57e37bda5b5f28cf10636d6d3aed4de5250df923f1b203b64ad857c79a7",
+      "licenca": "SIL Open Font License 1.1",
+      "modificado": false,
+      "pasta": "fonts"
+    },
+    "caveat-latin-600.woff2": {
+      "familia": "Caveat",
+      "peso": 600,
+      "pacote": "caveat",
+      "versao": "5.3.0",
+      "origem": "https://cdn.jsdelivr.net/npm/@fontsource/caveat@5.3.0/files/caveat-latin-600-normal.woff2",
+      "sha256": "d51e2283010e661d9f3dafdc9ff4b82b2ebcb2f7aa43ca48a105f5f68d46cc32",
+      "licenca": "SIL Open Font License 1.1",
+      "modificado": false,
+      "pasta": "fonts"
+    },
+    "caveat-latin-700.woff2": {
+      "familia": "Caveat",
+      "peso": 700,
+      "pacote": "caveat",
+      "versao": "5.3.0",
+      "origem": "https://cdn.jsdelivr.net/npm/@fontsource/caveat@5.3.0/files/caveat-latin-700-normal.woff2",
+      "sha256": "15f9638095ad5ec9816f93d66805ca1a87e71dc5a76b596bfce1c78d4704c405",
+      "licenca": "SIL Open Font License 1.1",
+      "modificado": false,
+      "pasta": "fonts"
+    },
+    "nunito-latin-700.woff2": {
+      "familia": "Nunito",
+      "peso": 700,
+      "pacote": "nunito",
+      "versao": "5.3.0",
+      "origem": "https://cdn.jsdelivr.net/npm/@fontsource/nunito@5.3.0/files/nunito-latin-700-normal.woff2",
+      "sha256": "fa89300b9bbb3bd0f60d6991aa055965d98e2ccca27bf8688fe0c39cdc796846",
+      "licenca": "SIL Open Font License 1.1",
+      "modificado": false,
+      "pasta": "fonts"
+    },
+    "nunito-latin-800.woff2": {
+      "familia": "Nunito",
+      "peso": 800,
+      "pacote": "nunito",
+      "versao": "5.3.0",
+      "origem": "https://cdn.jsdelivr.net/npm/@fontsource/nunito@5.3.0/files/nunito-latin-800-normal.woff2",
+      "sha256": "2363d3ed037283ebb961e8c4b4917e40a8bc8853cf9965cf1ea7b4daa1df630a",
+      "licenca": "SIL Open Font License 1.1",
+      "modificado": false,
+      "pasta": "fonts"
+    },
+    "patrick-hand-latin-400.woff2": {
+      "familia": "Patrick Hand",
+      "peso": 400,
+      "pacote": "patrick-hand",
+      "versao": "5.3.0",
+      "origem": "https://cdn.jsdelivr.net/npm/@fontsource/patrick-hand@5.3.0/files/patrick-hand-latin-400-normal.woff2",
+      "sha256": "ac5bc9033b2572bf84d39f7150c1634e37ed16e8dbee632d6d0bceac0bbf0199",
+      "licenca": "SIL Open Font License 1.1",
+      "modificado": false,
+      "pasta": "fonts"
+    }
+  }
+}

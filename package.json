@@ -1,0 +1,12 @@
+{
+  "name": "catalogo-video-pipeline",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Ferramentas para renderizar composições do Catálogo",
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "hyperframes": "0.8.144"
+  }
+}

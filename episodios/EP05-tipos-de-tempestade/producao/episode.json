@@ -1,0 +1,1313 @@
+{
+  "theme": "cartoon",
+  "total": 58.81,
+  "episode": "EP05 — Tipos de tempestade",
+  "version": "v1",
+  "chapters": [
+    {
+      "id": "abertura",
+      "label": "Abertura",
+      "titulo": "TODOS OS TIPOS DE TEMPESTADE",
+      "fundo": "azul",
+      "cor": "#29a8ff",
+      "mg": "wind_field",
+      "ilustra": "storm"
+    },
+    {
+      "id": "tornado",
+      "label": "Tornado",
+      "titulo": "TORNADO",
+      "fundo": "azul",
+      "cor": "#9fb4cc",
+      "mg": "vortex",
+      "ilustra": "tornado"
+    },
+    {
+      "id": "furacao",
+      "label": "Furacão",
+      "titulo": "FURACÃO",
+      "fundo": "azul",
+      "cor": "#29a8ff",
+      "mg": "spiral_storm",
+      "ilustra": "hurricane"
+    },
+    {
+      "id": "nevasca",
+      "label": "Nevasca",
+      "titulo": "NEVASCA",
+      "fundo": "azul",
+      "cor": "#bfefff",
+      "mg": "snowstorm",
+      "ilustra": "blizzard"
+    },
+    {
+      "id": "tempestade-de-raios",
+      "label": "Tempestade de raios",
+      "titulo": "TEMPESTADE DE RAIOS",
+      "fundo": "azul",
+      "cor": "#ffd23c",
+      "ilustra": "lightning"
+    },
+    {
+      "id": "fechamento",
+      "label": "Fechamento",
+      "titulo": "A PERGUNTA FINAL",
+      "fundo": "azul",
+      "cor": "#29a8ff",
+      "mg": "globe_grid",
+      "ilustra": "question"
+    }
+  ],
+  "scene_plan": [
+    {
+      "id": "cena-0001",
+      "segment": "ab01",
+      "chapter": "abertura",
+      "start": 0.0,
+      "dur": 3.1,
+      "tipo": "objeto",
+      "fundo": "petroleo",
+      "entrada": "fade",
+      "motivo": "Objeto contextual; alternância de enquadramento",
+      "autoral": true,
+      "movimento": "drift",
+      "direcao": 1,
+      "recipe": null
+    },
+    {
+      "id": "cena-0002",
+      "segment": "ab02",
+      "chapter": "abertura",
+      "start": 3.1,
+      "dur": 2.05,
+      "tipo": "detalhe",
+      "fundo": "ameixa",
+      "entrada": "cut_pop",
+      "motivo": "Objeto contextual; alternância de enquadramento",
+      "autoral": false,
+      "movimento": "kenburns",
+      "direcao": -1,
+      "recipe": null
+    },
+    {
+      "id": "cena-0003",
+      "segment": "ab03",
+      "chapter": "abertura",
+      "start": 5.15,
+      "dur": 2.82,
+      "tipo": "fenomeno",
+      "fundo": "azul",
+      "entrada": "fade",
+      "motivo": "Fenômeno do capítulo em tomada dedicada",
+      "autoral": true,
+      "movimento": "drift",
+      "direcao": 1,
+      "recipe": "wind_field"
+    },
+    {
+      "id": "cena-0004",
+      "segment": "to01",
+      "chapter": "tornado",
+      "start": 7.97,
+      "dur": 1.05,
+      "tipo": "objeto",
+      "fundo": "petroleo",
+      "entrada": "slide_in",
+      "motivo": "Objeto contextual; alternância de enquadramento",
+      "autoral": true,
+      "movimento": "drift",
+      "direcao": -1,
+      "recipe": null
+    },
+    {
+      "id": "cena-0005",
+      "segment": "to02",
+      "chapter": "tornado",
+      "start": 9.02,
+      "dur": 2.94,
+      "tipo": "detalhe",
+      "fundo": "ameixa",
+      "entrada": "cut_pop",
+      "motivo": "Objeto contextual; alternância de enquadramento",
+      "autoral": true,
+      "movimento": "kenburns",
+      "direcao": 1,
+      "recipe": null
+    },
+    {
+      "id": "cena-0006",
+      "segment": "to03",
+      "chapter": "tornado",
+      "start": 11.96,
+      "dur": 5.74,
+      "tipo": "dados",
+      "fundo": "azul",
+      "entrada": "fade",
+      "motivo": "Valor e unidade presentes na fala",
+      "autoral": true,
+      "movimento": "drift",
+      "direcao": -1,
+      "recipe": null
+    },
+    {
+      "id": "cena-0007",
+      "segment": "fu01",
+      "chapter": "furacao",
+      "start": 17.7,
+      "dur": 1.2,
+      "tipo": "objeto",
+      "fundo": "petroleo",
+      "entrada": "slide_in",
+      "motivo": "Objeto contextual; alternância de enquadramento",
+      "autoral": true,
+      "movimento": "drift",
+      "direcao": 1,
+      "recipe": null
+    },
+    {
+      "id": "cena-0008",
+      "segment": "fu02",
+      "chapter": "furacao",
+      "start": 18.9,
+      "dur": 2.85,
+      "tipo": "detalhe",
+      "fundo": "ameixa",
+      "entrada": "cut_pop",
+      "motivo": "Objeto contextual; alternância de enquadramento",
+      "autoral": true,
+      "movimento": "kenburns",
+      "direcao": -1,
+      "recipe": null
+    },
+    {
+      "id": "cena-0009",
+      "segment": "fu03",
+      "chapter": "furacao",
+      "start": 21.75,
+      "dur": 5.42,
+      "tipo": "dados",
+      "fundo": "azul",
+      "entrada": "fade",
+      "motivo": "Valor e unidade presentes na fala",
+      "autoral": true,
+      "movimento": "drift",
+      "direcao": 1,
+      "recipe": null
+    },
+    {
+      "id": "cena-0010",
+      "segment": "ne01",
+      "chapter": "nevasca",
+      "start": 27.17,
+      "dur": 1.17,
+      "tipo": "objeto",
+      "fundo": "petroleo",
+      "entrada": "slide_in",
+      "motivo": "Objeto contextual; alternância de enquadramento",
+      "autoral": false,
+      "movimento": "drift",
+      "direcao": -1,
+      "recipe": null
+    },
+    {
+      "id": "cena-0011",
+      "segment": "ne02",
+      "chapter": "nevasca",
+      "start": 28.34,
+      "dur": 5.97,
+      "tipo": "dados",
+      "fundo": "azul",
+      "entrada": "fade",
+      "motivo": "Valor e unidade presentes na fala",
+      "autoral": true,
+      "movimento": "drift",
+      "direcao": 1,
+      "recipe": null
+    },
+    {
+      "id": "cena-0012",
+      "segment": "ne03",
+      "chapter": "nevasca",
+      "start": 34.31,
+      "dur": 4.4,
+      "tipo": "fenomeno",
+      "fundo": "azul",
+      "entrada": "slide_in",
+      "motivo": "Fenômeno do capítulo em tomada dedicada",
+      "autoral": true,
+      "movimento": "drift",
+      "direcao": -1,
+      "recipe": "snowstorm"
+    },
+    {
+      "id": "cena-0013",
+      "segment": "ra01",
+      "chapter": "tempestade-de-raios",
+      "start": 38.71,
+      "dur": 2.09,
+      "tipo": "objeto",
+      "fundo": "petroleo",
+      "entrada": "fade",
+      "motivo": "Objeto contextual; alternância de enquadramento",
+      "autoral": true,
+      "movimento": "drift",
+      "direcao": 1,
+      "recipe": null
+    },
+    {
+      "id": "cena-0014",
+      "segment": "ra02",
+      "chapter": "tempestade-de-raios",
+      "start": 40.8,
+      "dur": 3.89,
+      "tipo": "dados",
+      "fundo": "azul",
+      "entrada": "slide_in",
+      "motivo": "Valor e unidade presentes na fala",
+      "autoral": true,
+      "movimento": "drift",
+      "direcao": -1,
+      "recipe": null
+    },
+    {
+      "id": "cena-0015",
+      "segment": "ra03",
+      "chapter": "tempestade-de-raios",
+      "start": 44.69,
+      "dur": 4.7,
+      "tipo": "fenomeno",
+      "fundo": "azul",
+      "entrada": "fade",
+      "motivo": "Fenômeno do capítulo em tomada dedicada",
+      "autoral": true,
+      "movimento": "drift",
+      "direcao": 1,
+      "recipe": "wind_field"
+    },
+    {
+      "id": "cena-0016",
+      "segment": "fx01",
+      "chapter": "fechamento",
+      "start": 49.39,
+      "dur": 1.89,
+      "tipo": "objeto",
+      "fundo": "petroleo",
+      "entrada": "slide_in",
+      "motivo": "Objeto contextual; alternância de enquadramento",
+      "autoral": true,
+      "movimento": "drift",
+      "direcao": -1,
+      "recipe": null
+    },
+    {
+      "id": "cena-0017",
+      "segment": "fx02",
+      "chapter": "fechamento",
+      "start": 51.28,
+      "dur": 3.1,
+      "tipo": "detalhe",
+      "fundo": "ameixa",
+      "entrada": "cut_pop",
+      "motivo": "Objeto contextual; alternância de enquadramento",
+      "autoral": true,
+      "movimento": "kenburns",
+      "direcao": 1,
+      "recipe": null
+    },
+    {
+      "id": "cena-0018",
+      "segment": "fx03",
+      "chapter": "fechamento",
+      "start": 54.38,
+      "dur": 4.43,
+      "tipo": "objeto",
+      "fundo": "petroleo",
+      "entrada": "fade",
+      "motivo": "Objeto contextual; alternância de enquadramento",
+      "autoral": true,
+      "movimento": "drift",
+      "direcao": -1,
+      "recipe": null
+    }
+  ],
+  "elements": [
+    {
+      "tipo": "fundo_seg",
+      "fundo": "petroleo",
+      "start": 0.0,
+      "dur": 3.1,
+      "scene_id": "cena-0001"
+    },
+    {
+      "tipo": "fundo_seg",
+      "fundo": "ameixa",
+      "start": 3.1,
+      "dur": 2.05,
+      "scene_id": "cena-0002"
+    },
+    {
+      "tipo": "fundo_seg",
+      "fundo": "azul",
+      "start": 5.15,
+      "dur": 2.82,
+      "scene_id": "cena-0003"
+    },
+    {
+      "tipo": "mg",
+      "id": "wind_field",
+      "modo": "full",
+      "cut": true,
+      "start": 5.15,
+      "dur": 2.82,
+      "scene_id": "cena-0003",
+      "params": {}
+    },
+    {
+      "tipo": "fundo_seg",
+      "fundo": "petroleo",
+      "start": 7.97,
+      "dur": 1.05,
+      "scene_id": "cena-0004"
+    },
+    {
+      "tipo": "fundo_seg",
+      "fundo": "ameixa",
+      "start": 9.02,
+      "dur": 2.94,
+      "scene_id": "cena-0005"
+    },
+    {
+      "tipo": "fundo_seg",
+      "fundo": "azul",
+      "start": 11.96,
+      "dur": 5.74,
+      "scene_id": "cena-0006"
+    },
+    {
+      "tipo": "fundo_seg",
+      "fundo": "petroleo",
+      "start": 17.7,
+      "dur": 1.2,
+      "scene_id": "cena-0007"
+    },
+    {
+      "tipo": "fundo_seg",
+      "fundo": "ameixa",
+      "start": 18.9,
+      "dur": 2.85,
+      "scene_id": "cena-0008"
+    },
+    {
+      "tipo": "fundo_seg",
+      "fundo": "azul",
+      "start": 21.75,
+      "dur": 5.42,
+      "scene_id": "cena-0009"
+    },
+    {
+      "tipo": "fundo_seg",
+      "fundo": "petroleo",
+      "start": 27.17,
+      "dur": 1.17,
+      "scene_id": "cena-0010"
+    },
+    {
+      "tipo": "fundo_seg",
+      "fundo": "azul",
+      "start": 28.34,
+      "dur": 5.97,
+      "scene_id": "cena-0011"
+    },
+    {
+      "tipo": "fundo_seg",
+      "fundo": "azul",
+      "start": 34.31,
+      "dur": 4.4,
+      "scene_id": "cena-0012"
+    },
+    {
+      "tipo": "mg",
+      "id": "snowstorm",
+      "modo": "full",
+      "cut": true,
+      "start": 34.31,
+      "dur": 4.4,
+      "scene_id": "cena-0012",
+      "params": {}
+    },
+    {
+      "tipo": "fundo_seg",
+      "fundo": "petroleo",
+      "start": 38.71,
+      "dur": 2.09,
+      "scene_id": "cena-0013"
+    },
+    {
+      "tipo": "fundo_seg",
+      "fundo": "azul",
+      "start": 40.8,
+      "dur": 3.89,
+      "scene_id": "cena-0014"
+    },
+    {
+      "tipo": "fundo_seg",
+      "fundo": "azul",
+      "start": 44.69,
+      "dur": 4.7,
+      "scene_id": "cena-0015"
+    },
+    {
+      "tipo": "mg",
+      "id": "wind_field",
+      "modo": "full",
+      "cut": true,
+      "start": 44.69,
+      "dur": 4.7,
+      "scene_id": "cena-0015",
+      "params": {}
+    },
+    {
+      "tipo": "fundo_seg",
+      "fundo": "petroleo",
+      "start": 49.39,
+      "dur": 1.89,
+      "scene_id": "cena-0016"
+    },
+    {
+      "tipo": "fundo_seg",
+      "fundo": "ameixa",
+      "start": 51.28,
+      "dur": 3.1,
+      "scene_id": "cena-0017"
+    },
+    {
+      "tipo": "fundo_seg",
+      "fundo": "petroleo",
+      "start": 54.38,
+      "dur": 4.43,
+      "scene_id": "cena-0018"
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TODOS OS TIPOS DE TEMPESTADE",
+      "cor": "#29a8ff",
+      "start": 0.25,
+      "dur": 2.4
+    },
+    {
+      "tipo": "callout",
+      "texto": "4 TIPOS",
+      "palavra": "quatro",
+      "pos": "acima",
+      "scene_id": "cena-0001",
+      "entrada": "fade",
+      "_seg": "ab01",
+      "_chapter": "abertura",
+      "slot": 0,
+      "start": 1.097,
+      "dur": 2.003
+    },
+    {
+      "tipo": "frase",
+      "texto": "DE TEMPESTADE",
+      "palavra": "tempestade",
+      "pos": "legenda",
+      "scene_id": "cena-0001",
+      "entrada": "fade",
+      "_seg": "ab01",
+      "_chapter": "abertura",
+      "start": 2.044,
+      "dur": 1.2
+    },
+    {
+      "tipo": "ilustra",
+      "id": "storm",
+      "at": 0.25,
+      "pos": "centro_alto",
+      "size": 480,
+      "_semantic": true,
+      "scene_id": "cena-0001",
+      "entrada": "fade",
+      "motion": "drift",
+      "motion_extra": [
+        36,
+        -16
+      ],
+      "start": 0.25,
+      "dur": 0.847,
+      "_seg": "ab01",
+      "_chapter": "abertura"
+    },
+    {
+      "tipo": "ilustra",
+      "id": "cloud",
+      "at": 3.1,
+      "pos": "centro_alto",
+      "size": 620,
+      "_semantic": true,
+      "scene_id": "cena-0002",
+      "entrada": "cut_pop",
+      "motion": "kenburns",
+      "motion_extra": [
+        -36,
+        -16
+      ],
+      "start": 3.1,
+      "dur": 2.05,
+      "_seg": "ab02",
+      "_chapter": "abertura"
+    },
+    {
+      "tipo": "ilustra",
+      "id": "hourglass",
+      "pos": "esquerda",
+      "scene_id": "cena-0003",
+      "entrada": "fade",
+      "motion": "drift",
+      "motion_extra": [
+        36,
+        -16
+      ],
+      "start": 5.15,
+      "dur": 2.62,
+      "_seg": "ab03",
+      "_chapter": "abertura"
+    },
+    {
+      "tipo": "frase",
+      "texto": "A LISTA INTEIRA EM 1 MINUTO",
+      "palavra": "minuto",
+      "pos": "legenda",
+      "scene_id": "cena-0003",
+      "entrada": "fade",
+      "_seg": "ab03",
+      "_chapter": "abertura",
+      "start": 5.692,
+      "dur": 2.078
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TORNADO",
+      "cor": "#9fb4cc",
+      "start": 7.97,
+      "dur": 2.4
+    },
+    {
+      "tipo": "ilustra",
+      "id": "tornado",
+      "pos": "centro_alto",
+      "scene_id": "cena-0004",
+      "entrada": "slide_in",
+      "motion": "drift",
+      "motion_extra": [
+        -36,
+        -16
+      ],
+      "start": 7.97,
+      "dur": 1.05,
+      "_seg": "to01",
+      "_chapter": "tornado"
+    },
+    {
+      "tipo": "mg",
+      "id": "vortex",
+      "modo": "full",
+      "pos": "centro",
+      "palavra": "gira",
+      "scene_id": "cena-0005",
+      "entrada": "cut_pop",
+      "_seg": "to02",
+      "_chapter": "tornado",
+      "start": 10.586,
+      "dur": 1.374
+    },
+    {
+      "tipo": "frase",
+      "texto": "AR GIRANDO, DA NUVEM AO CHÃO",
+      "palavra": "gira",
+      "pos": "legenda",
+      "scene_id": "cena-0005",
+      "entrada": "cut_pop",
+      "_seg": "to02",
+      "_chapter": "tornado",
+      "start": 10.586,
+      "dur": 1.374
+    },
+    {
+      "tipo": "ilustra",
+      "id": "storm",
+      "at": 9.02,
+      "pos": "centro_alto",
+      "size": 620,
+      "_semantic": true,
+      "scene_id": "cena-0005",
+      "entrada": "cut_pop",
+      "motion": "kenburns",
+      "motion_extra": [
+        36,
+        -16
+      ],
+      "start": 9.02,
+      "dur": 1.566,
+      "_seg": "to02",
+      "_chapter": "tornado"
+    },
+    {
+      "tipo": "ilustra",
+      "id": "tornado",
+      "at": 10.586,
+      "pos": "centro_alto",
+      "size": 620,
+      "_semantic": true,
+      "effect": "spin",
+      "scene_id": "cena-0005",
+      "entrada": "cut_pop",
+      "motion": "kenburns",
+      "motion_extra": [
+        36,
+        -16
+      ],
+      "start": 10.586,
+      "dur": 1.374,
+      "_seg": "to02",
+      "_chapter": "tornado"
+    },
+    {
+      "tipo": "mg",
+      "id": "speed_gauge",
+      "modo": "panel",
+      "pos": "centro_alto",
+      "params": {
+        "valor": 320,
+        "max": 400,
+        "unidade": "km/h"
+      },
+      "palavra": "vento",
+      "scene_id": "cena-0006",
+      "entrada": "fade",
+      "_seg": "to03",
+      "_chapter": "tornado",
+      "start": 13.643,
+      "dur": 4.057
+    },
+    {
+      "tipo": "frase",
+      "texto": "MAIS DE 320 KM/H NOS MAIS FORTES",
+      "palavra": "fortes",
+      "pos": "legenda",
+      "scene_id": "cena-0006",
+      "entrada": "fade",
+      "_seg": "to03",
+      "_chapter": "tornado",
+      "start": 12.661,
+      "dur": 2.8
+    },
+    {
+      "tipo": "ilustra",
+      "id": "cloud",
+      "at": 11.96,
+      "pos": "centro_alto",
+      "size": 480,
+      "_semantic": true,
+      "scene_id": "cena-0006",
+      "entrada": "fade",
+      "motion": "drift",
+      "motion_extra": [
+        -36,
+        -16
+      ],
+      "start": 11.96,
+      "dur": 1.683,
+      "_seg": "to03",
+      "_chapter": "tornado"
+    },
+    {
+      "tipo": "titulo",
+      "texto": "FURACÃO",
+      "cor": "#29a8ff",
+      "start": 17.7,
+      "dur": 2.4
+    },
+    {
+      "tipo": "ilustra",
+      "id": "hurricane",
+      "pos": "centro_alto",
+      "scene_id": "cena-0007",
+      "entrada": "slide_in",
+      "motion": "drift",
+      "motion_extra": [
+        36,
+        -16
+      ],
+      "start": 17.7,
+      "dur": 3.014,
+      "_seg": "fu01",
+      "_chapter": "furacao"
+    },
+    {
+      "tipo": "mg",
+      "id": "spiral_storm",
+      "modo": "full",
+      "pos": "centro",
+      "palavra": "espiral",
+      "scene_id": "cena-0008",
+      "entrada": "cut_pop",
+      "_seg": "fu02",
+      "_chapter": "furacao",
+      "start": 19.283,
+      "dur": 2.467
+    },
+    {
+      "tipo": "frase",
+      "texto": "ESPIRAL GIGANTE NASCIDA NO MAR",
+      "palavra": "espiral",
+      "pos": "legenda",
+      "scene_id": "cena-0008",
+      "entrada": "cut_pop",
+      "_seg": "fu02",
+      "_chapter": "furacao",
+      "start": 19.283,
+      "dur": 2.467
+    },
+    {
+      "tipo": "ilustra",
+      "id": "tree",
+      "at": 20.714,
+      "pos": "centro_alto",
+      "size": 620,
+      "_semantic": true,
+      "scene_id": "cena-0008",
+      "entrada": "cut_pop",
+      "motion": "kenburns",
+      "motion_extra": [
+        -36,
+        -16
+      ],
+      "start": 20.714,
+      "dur": 1.036,
+      "_seg": "fu02",
+      "_chapter": "furacao"
+    },
+    {
+      "tipo": "mg",
+      "id": "thermometer",
+      "modo": "panel",
+      "pos": "centro_alto",
+      "params": {
+        "valor": 26.5,
+        "max": 40,
+        "unidade": "°C"
+      },
+      "palavra": "água",
+      "scene_id": "cena-0009",
+      "entrada": "fade",
+      "_seg": "fu03",
+      "_chapter": "furacao",
+      "start": 23.794,
+      "dur": 3.376
+    },
+    {
+      "tipo": "frase",
+      "texto": "ÁGUA ACIMA DE 26,5 °C",
+      "palavra": "graus",
+      "pos": "legenda",
+      "scene_id": "cena-0009",
+      "entrada": "fade",
+      "_seg": "fu03",
+      "_chapter": "furacao",
+      "start": 25.678,
+      "dur": 1.292
+    },
+    {
+      "tipo": "ilustra",
+      "id": "hurricane",
+      "at": 21.75,
+      "pos": "centro_alto",
+      "size": 480,
+      "_semantic": true,
+      "scene_id": "cena-0009",
+      "entrada": "fade",
+      "motion": "drift",
+      "motion_extra": [
+        36,
+        -16
+      ],
+      "start": 21.75,
+      "dur": 2.044,
+      "_seg": "fu03",
+      "_chapter": "furacao"
+    },
+    {
+      "tipo": "titulo",
+      "texto": "NEVASCA",
+      "cor": "#bfefff",
+      "start": 27.17,
+      "dur": 2.4
+    },
+    {
+      "tipo": "ilustra",
+      "id": "blizzard",
+      "at": 27.395,
+      "pos": "centro_alto",
+      "size": 480,
+      "_semantic": true,
+      "scene_id": "cena-0010",
+      "entrada": "slide_in",
+      "motion": "drift",
+      "motion_extra": [
+        -36,
+        -16
+      ],
+      "start": 27.395,
+      "dur": 0.945,
+      "_seg": "ne01",
+      "_chapter": "nevasca"
+    },
+    {
+      "tipo": "callout",
+      "texto": "VENTO DE 56 KM/H OU MAIS",
+      "palavra": "vento",
+      "pos": "acima",
+      "scene_id": "cena-0011",
+      "entrada": "fade",
+      "_seg": "ne02",
+      "_chapter": "nevasca",
+      "slot": 0,
+      "start": 28.621,
+      "dur": 2.75
+    },
+    {
+      "tipo": "frase",
+      "texto": "NEVE QUE TAPA A VISÃO",
+      "palavra": "neve",
+      "pos": "legenda",
+      "scene_id": "cena-0011",
+      "entrada": "fade",
+      "_seg": "ne02",
+      "_chapter": "nevasca",
+      "start": 32.555,
+      "dur": 1.755
+    },
+    {
+      "tipo": "ilustra",
+      "id": "storm",
+      "at": 31.371,
+      "pos": "centro_alto",
+      "size": 480,
+      "_semantic": true,
+      "scene_id": "cena-0011",
+      "entrada": "fade",
+      "motion": "drift",
+      "motion_extra": [
+        36,
+        -16
+      ],
+      "start": 31.371,
+      "dur": 1.184,
+      "_seg": "ne02",
+      "_chapter": "nevasca"
+    },
+    {
+      "tipo": "ilustra",
+      "id": "snowflake",
+      "at": 32.555,
+      "pos": "centro_alto",
+      "size": 480,
+      "_semantic": true,
+      "scene_id": "cena-0011",
+      "entrada": "fade",
+      "motion": "drift",
+      "motion_extra": [
+        36,
+        -16
+      ],
+      "start": 32.555,
+      "dur": 1.755,
+      "_seg": "ne02",
+      "_chapter": "nevasca"
+    },
+    {
+      "tipo": "mg",
+      "id": "duration_bar",
+      "modo": "panel",
+      "pos": "centro_alto",
+      "params": {
+        "texto": "3 HORAS OU MAIS"
+      },
+      "palavra": "horas",
+      "scene_id": "cena-0012",
+      "entrada": "slide_in",
+      "_seg": "ne03",
+      "_chapter": "nevasca",
+      "start": 37.197,
+      "dur": 1.413
+    },
+    {
+      "tipo": "frase",
+      "texto": "O MÍNIMO PARA SER NEVASCA",
+      "palavra": "nevasca",
+      "pos": "legenda",
+      "scene_id": "cena-0012",
+      "entrada": "slide_in",
+      "_seg": "ne03",
+      "_chapter": "nevasca",
+      "start": 35.313,
+      "dur": 2.8
+    },
+    {
+      "tipo": "ilustra",
+      "id": "storm",
+      "at": 34.31,
+      "pos": "centro_alto",
+      "size": 480,
+      "_semantic": true,
+      "scene_id": "cena-0012",
+      "entrada": "slide_in",
+      "motion": "drift",
+      "motion_extra": [
+        -36,
+        -16
+      ],
+      "start": 34.31,
+      "dur": 1.003,
+      "_seg": "ne03",
+      "_chapter": "nevasca"
+    },
+    {
+      "tipo": "ilustra",
+      "id": "blizzard",
+      "at": 35.313,
+      "pos": "centro_alto",
+      "size": 480,
+      "_semantic": true,
+      "scene_id": "cena-0012",
+      "entrada": "slide_in",
+      "motion": "drift",
+      "motion_extra": [
+        -36,
+        -16
+      ],
+      "start": 35.313,
+      "dur": 1.243,
+      "_seg": "ne03",
+      "_chapter": "nevasca"
+    },
+    {
+      "tipo": "ilustra",
+      "id": "hourglass",
+      "at": 36.556,
+      "pos": "centro_alto",
+      "size": 480,
+      "_semantic": true,
+      "scene_id": "cena-0012",
+      "entrada": "slide_in",
+      "motion": "drift",
+      "motion_extra": [
+        -36,
+        -16
+      ],
+      "start": 36.556,
+      "dur": 0.641,
+      "_seg": "ne03",
+      "_chapter": "nevasca"
+    },
+    {
+      "tipo": "titulo",
+      "texto": "TEMPESTADE DE RAIOS",
+      "cor": "#ffd23c",
+      "start": 38.71,
+      "dur": 2.4
+    },
+    {
+      "tipo": "ilustra",
+      "id": "lightning",
+      "pos": "centro_alto",
+      "scene_id": "cena-0013",
+      "entrada": "fade",
+      "motion": "drift",
+      "motion_extra": [
+        36,
+        -16
+      ],
+      "start": 38.71,
+      "dur": 2.09,
+      "_seg": "ra01",
+      "_chapter": "tempestade-de-raios"
+    },
+    {
+      "tipo": "mg",
+      "id": "thermometer",
+      "modo": "panel",
+      "pos": "centro_alto",
+      "params": {
+        "valor": 28000,
+        "max": 30000,
+        "unidade": "°C"
+      },
+      "palavra": "raio",
+      "scene_id": "cena-0014",
+      "entrada": "slide_in",
+      "_seg": "ra02",
+      "_chapter": "tempestade-de-raios",
+      "start": 41.926,
+      "dur": 2.664
+    },
+    {
+      "tipo": "frase",
+      "texto": "28.000 °C EM VOLTA DO RAIO",
+      "palavra": "graus",
+      "pos": "legenda",
+      "scene_id": "cena-0014",
+      "entrada": "slide_in",
+      "_seg": "ra02",
+      "_chapter": "tempestade-de-raios",
+      "start": 43.877,
+      "dur": 1.2
+    },
+    {
+      "tipo": "ilustra",
+      "id": "storm",
+      "at": 40.8,
+      "pos": "centro_alto",
+      "size": 480,
+      "_semantic": true,
+      "scene_id": "cena-0014",
+      "entrada": "slide_in",
+      "motion": "drift",
+      "motion_extra": [
+        -36,
+        -16
+      ],
+      "start": 40.8,
+      "dur": 1.126,
+      "_seg": "ra02",
+      "_chapter": "tempestade-de-raios"
+    },
+    {
+      "tipo": "mg",
+      "id": "size_compare",
+      "modo": "panel",
+      "pos": "centro_alto",
+      "params": {
+        "itens": [
+          {
+            "rotulo": "Superfície do Sol",
+            "escala": 0.2,
+            "cor": "#ffb02b"
+          },
+          {
+            "rotulo": "Raio: 5 vezes",
+            "escala": 1.0,
+            "cor": "#56ccff"
+          }
+        ]
+      },
+      "palavra": "temperatura",
+      "scene_id": "cena-0015",
+      "entrada": "fade",
+      "_seg": "ra03",
+      "_chapter": "tempestade-de-raios",
+      "start": 46.7,
+      "dur": 2.59
+    },
+    {
+      "tipo": "frase",
+      "texto": "CINCO VEZES MAIS QUENTE QUE O SOL",
+      "palavra": "cinco",
+      "pos": "legenda",
+      "scene_id": "cena-0015",
+      "entrada": "fade",
+      "_seg": "ra03",
+      "_chapter": "tempestade-de-raios",
+      "start": 45.635,
+      "dur": 2.8
+    },
+    {
+      "tipo": "ilustra",
+      "id": "cloud",
+      "at": 44.69,
+      "pos": "centro_alto",
+      "size": 480,
+      "_semantic": true,
+      "scene_id": "cena-0015",
+      "entrada": "fade",
+      "motion": "drift",
+      "motion_extra": [
+        36,
+        -16
+      ],
+      "start": 44.69,
+      "dur": 1.306,
+      "_seg": "ra03",
+      "_chapter": "tempestade-de-raios"
+    },
+    {
+      "tipo": "ilustra",
+      "id": "tape",
+      "at": 45.996,
+      "pos": "centro_alto",
+      "size": 480,
+      "_semantic": true,
+      "scene_id": "cena-0015",
+      "entrada": "fade",
+      "motion": "drift",
+      "motion_extra": [
+        36,
+        -16
+      ],
+      "start": 45.996,
+      "dur": 0.704,
+      "_seg": "ra03",
+      "_chapter": "tempestade-de-raios"
+    },
+    {
+      "tipo": "titulo",
+      "texto": "A PERGUNTA FINAL",
+      "cor": "#29a8ff",
+      "start": 49.39,
+      "dur": 2.633
+    },
+    {
+      "tipo": "frase",
+      "texto": "A PERGUNTA PROMETIDA",
+      "palavra": "pergunta",
+      "pos": "legenda",
+      "scene_id": "cena-0016",
+      "entrada": "slide_in",
+      "_seg": "fx01",
+      "_chapter": "fechamento",
+      "start": 49.714,
+      "dur": 1.816
+    },
+    {
+      "tipo": "ilustra",
+      "id": "question",
+      "at": 49.714,
+      "pos": "centro_alto",
+      "size": 480,
+      "_semantic": true,
+      "scene_id": "cena-0016",
+      "entrada": "slide_in",
+      "motion": "drift",
+      "motion_extra": [
+        -36,
+        -16
+      ],
+      "start": 49.714,
+      "dur": 1.566,
+      "_seg": "fx01",
+      "_chapter": "fechamento"
+    },
+    {
+      "tipo": "frase",
+      "texto": "QUAL TEMPESTADE VOCÊ JÁ VIU DE PERTO?",
+      "palavra": "perto",
+      "pos": "legenda",
+      "scene_id": "cena-0017",
+      "entrada": "cut_pop",
+      "_seg": "fx02",
+      "_chapter": "fechamento",
+      "start": 53.608,
+      "dur": 1.2
+    },
+    {
+      "tipo": "ilustra",
+      "id": "storm",
+      "at": 52.023,
+      "pos": "centro_alto",
+      "size": 620,
+      "_semantic": true,
+      "scene_id": "cena-0017",
+      "entrada": "cut_pop",
+      "motion": "kenburns",
+      "motion_extra": [
+        36,
+        -16
+      ],
+      "start": 52.023,
+      "dur": 2.357,
+      "_seg": "fx02",
+      "_chapter": "fechamento"
+    },
+    {
+      "tipo": "callout",
+      "texto": "ATIVA O SINO",
+      "palavra": "sino",
+      "pos": "acima",
+      "scene_id": "cena-0018",
+      "entrada": "fade",
+      "_seg": "fx03",
+      "_chapter": "fechamento",
+      "slot": 0,
+      "start": 55.765,
+      "dur": 1.595
+    },
+    {
+      "tipo": "frase",
+      "texto": "ATÉ O PRÓXIMO CATÁLOGO",
+      "palavra": "catálogo",
+      "pos": "legenda",
+      "scene_id": "cena-0018",
+      "entrada": "fade",
+      "_seg": "fx03",
+      "_chapter": "fechamento",
+      "start": 56.347,
+      "dur": 2.463
+    },
+    {
+      "tipo": "ilustra",
+      "id": "earth",
+      "at": 54.38,
+      "pos": "centro_alto",
+      "size": 480,
+      "_semantic": true,
+      "scene_id": "cena-0018",
+      "entrada": "fade",
+      "motion": "drift",
+      "motion_extra": [
+        -36,
+        -16
+      ],
+      "start": 54.38,
+      "dur": 1.385,
+      "_seg": "fx03",
+      "_chapter": "fechamento"
+    },
+    {
+      "tipo": "sfx",
+      "nome": "pop",
+      "start": 13.793,
+      "gain": 0.3
+    },
+    {
+      "tipo": "sfx",
+      "nome": "pop",
+      "start": 23.944,
+      "gain": 0.3
+    },
+    {
+      "tipo": "sfx",
+      "nome": "pop",
+      "start": 37.347,
+      "gain": 0.3
+    },
+    {
+      "tipo": "sfx",
+      "nome": "pop",
+      "start": 42.076,
+      "gain": 0.3
+    },
+    {
+      "tipo": "sfx",
+      "nome": "pop",
+      "start": 46.85,
+      "gain": 0.3
+    },
+    {
+      "tipo": "sfx",
+      "nome": "ping",
+      "start": 49.714,
+      "gain": 0.34
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "references": [
+    {
+      "file": "layout.svg",
+      "source": "Exemplo original deste repositório",
+      "license": "Licença Gratuita e Aberta do Dark Sem Filtro",
+      "observations": "Fundo escuro, objeto à esquerda, número com unidade à direita; uma informação principal por cena."
+    }
+  ],
+  "tokens": {
+    "title_color": "#2ba6ff",
+    "callout_color": "#2ba6ff",
+    "title_size": 112,
+    "callout_size": 132
+  }
+}

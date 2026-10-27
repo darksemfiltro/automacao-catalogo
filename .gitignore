@@ -1,0 +1,87 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.pyc
+
+# ── Node / opencode ─────────────────────────────────────
+node_modules/
+
+# ── Mídia pesada (regenerável ou grande demais para o git) ──
+*.mp4
+!demonstracao/*.mp4
+*.mov
+*.mkv
+*.wav
+*.mp3
+*.m4a
+
+# Mídia externa e vozes ficam locais. Um clone público usa seus próprios arquivos.
+**/assets/audio/
+**/assets/music/
+**/assets/sfx/*.mp3
+
+# ── Saídas de render e previews ─────────────────────────
+**/renders/
+**/_tmp_hf/
+**/_preview*/
+**/_audit*/
+**/preview_*/
+**/hyperframes_demo/
+.release-smoke/
+**/hyperframes/
+**/hyperframes_doodle/
+
+# Intermediários da produção; o spec do EP05 versionado serve como exemplo.
+**/alignment_*.json
+**/audio_report_*.json
+**/roteiro_fonetico_*.json
+**/segments_*.json
+**/timing_*.json
+**/tts_manifest_*.json
+**/tts_result_*.json
+**/episode.json
+!episodios/EP05-tipos-de-tempestade/producao/episode.json
+**/tts_ep*.bat
+
+# ── Análise de referência (vídeos, folhas de contato) ───
+referencia/_analise/
+referencia/*.png
+
+# ── Sistema ─────────────────────────────────────────────
+Thumbs.db
+desktop.ini
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+
+# Composições geradas e planos locais
+**/hyperframes_*/
+**/video_*/
+**/plano_cenas.json
+
+# Fixtures e artefatos temporários de verificação
+**/critica.json
+
+# Análise e revisão locais: podem conter fonte privada e caminhos do usuário.
+**/entrada/
+**/analise/
+episodios/*/producao/referencias/
+**/storyboard.json
+**/storyboard.html
+**/review.json
+**/revisoes/
+.venv/
+
+*.bak-varrer
+
+# Pacote de publicação do canal e backups locais
+**/entrega/
+*.bundle
+.env
+sistema/voz.local.json
+.instalacao-teste/
+.venv-voz/
+
+# Mídia de terceiros baixada por automações (Pexels, Pixabay)
+**/assets/midia/

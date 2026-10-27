@@ -1,0 +1,106 @@
+LICENÇA GRATUITA E ABERTA DO DARK SEM FILTRO (versão 1.1)
+
+Copyright (c) 2026 Dark Sem Filtro e colaboradores.
+Contato para avisos e pedidos: contato.darksemfiltro@gmail.com
+
+Este projeto é gratuito e aberto. Você pode ler, usar, copiar, estudar,
+modificar e compartilhar todo o conteúdo do código e da documentação deste
+repositório, sem pedir permissão e sem pagar nada. Existe uma única proibição
+de uso: vender (item 2). Há também duas condições para redistribuir (itens 3 e 4).
+
+1. O QUE VOCÊ PODE FAZER
+
+   Para qualquer fim, inclusive criar e publicar vídeos no seu canal, ensinar,
+   adaptar para outros temas e idiomas, e distribuir cópias e versões
+   modificadas, desde que respeite os itens 2, 3 e 4.
+
+2. A ÚNICA PROIBIÇÃO DE USO: VENDER
+
+   É proibido usar este projeto, no todo ou em parte, para vender a outras
+   pessoas. "Vender" quer dizer receber dinheiro ou qualquer vantagem
+   financeira de terceiros por qualquer um destes itens:
+
+   a) o código, os scripts, os prompts, as receitas, os estilos visuais, a
+      documentação ou qualquer trecho deste repositório;
+   b) uma obra derivada: fork, adaptação, tradução, pacote, template, plugin ou
+      "versão premium" que contenha ou seja baseada em parte deste projeto;
+   c) acesso, assinatura, curso, mentoria, comunidade paga ou conteúdo exclusivo
+      para pagantes (como vídeos só para membros pagos) cujo conteúdo ou entrega
+      dependa deste projeto;
+   d) qualquer coisa feita com este projeto e entregue a um cliente ou a um
+      patrocinador mediante pagamento, como vídeos sob encomenda. Um vídeo que
+      você faz por conta própria para o seu canal não é encomenda, mesmo que
+      depois receba patrocínio (veja o item 3).
+
+   Cobrar apenas pelo seu tempo em outro trabalho, que não entregue nem use este
+   projeto, não é vender. Receber doações voluntárias para manter o seu canal ou
+   o seu projeto, sem dar nada exclusivo em troca, também não é vender.
+
+3. TUDO O QUE FOR FEITO COM ELE FICA GRATUITO
+
+   Qualquer obra derivada de código ou de documentação que você distribuir deve
+   ser gratuita para quem a recebe e deve manter esta mesma licença e este
+   arquivo.
+
+   Vídeos, imagens e áudios que você produzir com o projeto e publicar
+   abertamente, sem cobrar de quem assiste, podem ser usados e compartilhados
+   por você como quiser. Publicar em plataforma que remunera o canal por
+   visualização ou anúncio não é vender, porque quem assiste não paga. Incluir
+   uma menção de patrocinador no seu próprio vídeo também não é vender, desde
+   que o vídeo continue gratuito para o público e não tenha sido feito por
+   encomenda (item 2d). Esta licença não diz que um vídeo seu é obra derivada
+   do projeto, e ela não se aplica ao que você cria com as suas próprias ideias,
+   textos e vozes.
+
+4. AVISO DE AUTORIA
+
+   Mantenha o texto "Baseado no Catálogo do Dark Sem Filtro" e o link do
+   repositório original em qualquer obra derivada de código ou de documentação.
+   Nos vídeos não há exigência de crédito. Quem não mantiver o aviso deve
+   corrigir em até 15 dias depois de ser avisado.
+
+5. VIOLAÇÃO E REMOÇÃO
+
+   Quem vender, ou distribuir obra derivada sem respeitar o item 3, está
+   violando esta licença. O autor avisa por escrito (e-mail ou página do
+   projeto). Quem recebe o aviso tem 15 dias para remover o produto, o curso,
+   o arquivo ou a publicação. Passado o prazo, a licença de quem violou termina,
+   e o autor pode pedir a remoção do conteúdo às plataformas que o hospedam e
+   usar os meios legais cabíveis. A licença só volta mediante autorização escrita
+   do autor. A remoção não apaga uma violação já ocorrida: o autor pode exigir
+   reparação pelos meios legais.
+
+6. COMPONENTES E MATERIAL DE TERCEIROS
+
+   Esta licença cobre só o material original do código e da documentação do
+   repositório. Ela não cobre o vídeo de demonstração, que pode ser visto e
+   compartilhado sem alteração mas não é um componente do projeto, nem a voz de
+   referência do canal, que não é distribuída. GSAP, fontes, HyperFrames,
+   FFmpeg, modelos de voz, vozes, músicas, efeitos sonoros e imagens de terceiros
+   mantêm as licenças deles; veja THIRD_PARTY.md. Você responde por respeitar
+   essas licenças e os termos de serviço das APIs de voz, de imagem e de vídeo
+   que usar. Alguns componentes, como os pesos do OmniVoice (uso não comercial),
+   podem tratar como comercial um vídeo monetizado por anúncio. Isso depende da
+   licença do componente, não desta.
+
+7. O AUTOR ORIGINAL
+
+   O titular do copyright (Dark Sem Filtro) não fica sujeito aos itens 2 e 3 em
+   relação ao material que ele próprio criou. Ele pode, por exemplo, vender
+   cursos e pacotes seus. Quem contribui com código ou texto mantém a autoria da
+   própria contribuição, a oferece sob esta licença e autoriza o mantenedor a
+   publicar versões futuras da licença, desde que continuem gratuitas.
+
+8. SEM GARANTIA
+
+   O projeto é fornecido "como está", sem garantia de qualquer tipo. Os autores
+   não respondem por danos decorrentes do uso. Você responde pelo conteúdo que
+   publica, inclusive pela conferência dos fatos que aparecem nos seus vídeos.
+
+9. O QUE ESTA LICENÇA NÃO É
+
+   Esta é uma licença própria. Como proíbe a venda, ela não se enquadra na
+   definição formal de "código aberto" da Open Source Initiative, embora o
+   código seja aberto para qualquer pessoa ler, usar e modificar. O texto não
+   substitui aconselhamento jurídico. O autor pode conceder permissões
+   adicionais por escrito, caso a caso. Vale a lei brasileira.

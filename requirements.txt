@@ -1,0 +1,5 @@
+# Preparação e montagem de áudio (assemble.py e measure_durations.py).
+# O pin muda em Python 3.14 porque NumPy 2.2 não publica wheel para essa versão.
+numpy==2.2.6; python_version < "3.14"
+numpy==2.5.2; python_version >= "3.14"
+soundfile==0.14.0

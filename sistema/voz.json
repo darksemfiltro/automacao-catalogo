@@ -1,0 +1,18 @@
+{
+  "provedor": "omnivoice",
+  "modo": "direto",
+  "central_runner": null,
+  "api": {
+    "base_url": "https://api.openai.com/v1",
+    "modelo": "gpt-4o-mini-tts",
+    "voz": "alloy",
+    "instrucoes": null,
+    "chave_env": "OPENAI_API_KEY",
+    "exige_chave": true,
+    "timeout_s": 120
+  },
+  "comando": {
+    "argv": null,
+    "entrada": "stdin"
+  }
+}

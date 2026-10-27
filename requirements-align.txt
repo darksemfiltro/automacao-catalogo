@@ -1,0 +1,5 @@
+# Instale torch e torchaudio no mesmo ambiente usando o seletor oficial para
+# sua plataforma (CPU, CUDA ou ROCm): https://pytorch.org/get-started/locally/
+# O wheel correto não pode ser escolhido em um requirements.txt multiplataforma.
+-r requirements.txt
+uroman==1.3.1.1

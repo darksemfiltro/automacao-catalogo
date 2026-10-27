@@ -1,0 +1,280 @@
+{
+  "theme": "cartoon",
+  "defaults": {
+    "fundo": "azul"
+  },
+  "chapters": {
+    "abertura": {
+      "titulo": "TODOS OS TIPOS DE TEMPESTADE",
+      "fundo": "azul",
+      "cor": "#29a8ff",
+      "mg": "wind_field",
+      "ilustra": "storm"
+    },
+    "tornado": {
+      "titulo": "TORNADO",
+      "fundo": "azul",
+      "cor": "#9fb4cc",
+      "mg": "vortex",
+      "ilustra": "tornado"
+    },
+    "furacao": {
+      "titulo": "FURACÃO",
+      "fundo": "azul",
+      "cor": "#29a8ff",
+      "mg": "spiral_storm",
+      "ilustra": "hurricane"
+    },
+    "nevasca": {
+      "titulo": "NEVASCA",
+      "fundo": "azul",
+      "cor": "#bfefff",
+      "mg": "snowstorm",
+      "ilustra": "blizzard"
+    },
+    "tempestade-de-raios": {
+      "titulo": "TEMPESTADE DE RAIOS",
+      "fundo": "azul",
+      "cor": "#ffd23c",
+      "ilustra": "lightning"
+    },
+    "fechamento": {
+      "titulo": "A PERGUNTA FINAL",
+      "fundo": "azul",
+      "cor": "#29a8ff",
+      "mg": "globe_grid",
+      "ilustra": "question"
+    }
+  },
+  "cenas": {
+    "ab01": [
+      {
+        "tipo": "callout",
+        "texto": "4 TIPOS",
+        "palavra": "quatro",
+        "pos": "acima"
+      },
+      {
+        "tipo": "frase",
+        "texto": "DE TEMPESTADE",
+        "palavra": "tempestade",
+        "pos": "legenda"
+      }
+    ],
+    "ab03": [
+      {
+        "tipo": "ilustra",
+        "id": "hourglass",
+        "pos": "esquerda"
+      },
+      {
+        "tipo": "frase",
+        "texto": "A LISTA INTEIRA EM 1 MINUTO",
+        "palavra": "minuto",
+        "pos": "legenda"
+      }
+    ],
+    "to01": [
+      {
+        "tipo": "ilustra",
+        "id": "tornado",
+        "pos": "centro_alto"
+      }
+    ],
+    "to02": [
+      {
+        "tipo": "mg",
+        "id": "vortex",
+        "modo": "full",
+        "pos": "centro",
+        "palavra": "gira"
+      },
+      {
+        "tipo": "frase",
+        "texto": "AR GIRANDO, DA NUVEM AO CHÃO",
+        "palavra": "gira",
+        "pos": "legenda"
+      }
+    ],
+    "to03": [
+      {
+        "tipo": "mg",
+        "id": "speed_gauge",
+        "modo": "panel",
+        "pos": "centro_alto",
+        "params": {
+          "valor": 320,
+          "max": 400,
+          "unidade": "km/h"
+        },
+        "palavra": "vento"
+      },
+      {
+        "tipo": "frase",
+        "texto": "MAIS DE 320 KM/H NOS MAIS FORTES",
+        "palavra": "fortes",
+        "pos": "legenda"
+      }
+    ],
+    "fu01": [
+      {
+        "tipo": "ilustra",
+        "id": "hurricane",
+        "pos": "centro_alto"
+      }
+    ],
+    "fu02": [
+      {
+        "tipo": "mg",
+        "id": "spiral_storm",
+        "modo": "full",
+        "pos": "centro",
+        "palavra": "espiral"
+      },
+      {
+        "tipo": "frase",
+        "texto": "ESPIRAL GIGANTE NASCIDA NO MAR",
+        "palavra": "espiral",
+        "pos": "legenda"
+      }
+    ],
+    "fu03": [
+      {
+        "tipo": "mg",
+        "id": "thermometer",
+        "modo": "panel",
+        "pos": "centro_alto",
+        "params": {
+          "valor": 26.5,
+          "max": 40,
+          "unidade": "°C"
+        },
+        "palavra": "água"
+      },
+      {
+        "tipo": "frase",
+        "texto": "ÁGUA ACIMA DE 26,5 °C",
+        "palavra": "graus",
+        "pos": "legenda"
+      }
+    ],
+    "ne02": [
+      {
+        "tipo": "callout",
+        "texto": "VENTO DE 56 KM/H OU MAIS",
+        "palavra": "vento",
+        "pos": "acima"
+      },
+      {
+        "tipo": "frase",
+        "texto": "NEVE QUE TAPA A VISÃO",
+        "palavra": "neve",
+        "pos": "legenda"
+      }
+    ],
+    "ne03": [
+      {
+        "tipo": "mg",
+        "id": "duration_bar",
+        "modo": "panel",
+        "pos": "centro_alto",
+        "params": {
+          "texto": "3 HORAS OU MAIS"
+        },
+        "palavra": "horas"
+      },
+      {
+        "tipo": "frase",
+        "texto": "O MÍNIMO PARA SER NEVASCA",
+        "palavra": "nevasca",
+        "pos": "legenda"
+      }
+    ],
+    "ra01": [
+      {
+        "tipo": "ilustra",
+        "id": "lightning",
+        "pos": "centro_alto"
+      }
+    ],
+    "ra02": [
+      {
+        "tipo": "mg",
+        "id": "thermometer",
+        "modo": "panel",
+        "pos": "centro_alto",
+        "params": {
+          "valor": 28000,
+          "max": 30000,
+          "unidade": "°C"
+        },
+        "palavra": "raio"
+      },
+      {
+        "tipo": "frase",
+        "texto": "28.000 °C EM VOLTA DO RAIO",
+        "palavra": "graus",
+        "pos": "legenda"
+      }
+    ],
+    "ra03": [
+      {
+        "tipo": "mg",
+        "id": "size_compare",
+        "modo": "panel",
+        "pos": "centro_alto",
+        "params": {
+          "itens": [
+            {
+              "rotulo": "Superfície do Sol",
+              "escala": 0.2,
+              "cor": "#ffb02b"
+            },
+            {
+              "rotulo": "Raio: 5 vezes",
+              "escala": 1.0,
+              "cor": "#56ccff"
+            }
+          ]
+        },
+        "palavra": "temperatura"
+      },
+      {
+        "tipo": "frase",
+        "texto": "CINCO VEZES MAIS QUENTE QUE O SOL",
+        "palavra": "cinco",
+        "pos": "legenda"
+      }
+    ],
+    "fx01": [
+      {
+        "tipo": "frase",
+        "texto": "A PERGUNTA PROMETIDA",
+        "palavra": "pergunta",
+        "pos": "legenda"
+      }
+    ],
+    "fx02": [
+      {
+        "tipo": "frase",
+        "texto": "QUAL TEMPESTADE VOCÊ JÁ VIU DE PERTO?",
+        "palavra": "perto",
+        "pos": "centro"
+      }
+    ],
+    "fx03": [
+      {
+        "tipo": "callout",
+        "texto": "ATIVA O SINO",
+        "palavra": "sino",
+        "pos": "acima"
+      },
+      {
+        "tipo": "frase",
+        "texto": "ATÉ O PRÓXIMO CATÁLOGO",
+        "palavra": "catálogo",
+        "pos": "legenda"
+      }
+    ]
+  }
+}
